@@ -1,0 +1,15 @@
+digraph Repository {
+  rankdir=RL
+  node [style="rounded, filled", shape=rounded, color=darkgreen, penwidth=3]
+  edge [weight=1, penwidth=1]
+  commit1 [fillcolor="#C2F8C3"]
+  commit2 [fillcolor="#C2F8C3"]
+  commit3 [fillcolor="#C2F8C3"]
+  ref [fillcolor="#CCCCCC"]
+  subgraph cluster_1 {
+    commit3 -> commit2 -> commit1
+  }
+  subgraph cluster_0 {
+    ref -> commit3
+  }
+}
