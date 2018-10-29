@@ -1,15 +1,4 @@
-# Git
-
-## Sistema de versionamento
----
-
-### Diffs
-
-![](img/versions-diff.png)
-
-### Versões
-
-![](img/versions-files.png)
+# Sistema de versionamento
 
 ## Versão 1
 ---
@@ -204,7 +193,7 @@ Date:   Sun Oct 28 00:37:59 2018 -0300
 ```
 $ git log --oneline
 d12305b (HEAD -> master) adicionando o capítulo 1
-5bf`530e primeira versão do relatório
+5bf530e primeira versão do relatório
 ```
 
 ## Versão 3
@@ -212,7 +201,7 @@ d12305b (HEAD -> master) adicionando o capítulo 1
 
 ### Editando arquivos
 
-README.md
+`README.md`:
 ```
 # Relatório
 
@@ -220,7 +209,7 @@ README.md
 * [Capítulo 2](capitulos/capitulo-2.md)
 ```
 
-capitulos/capitulo-2.md
+`capitulos/capitulo-2.md`:
 ```
 # Capítulo 2
 ```
@@ -325,6 +314,7 @@ $ git log --oneline --graph --decorate
 
 ```
 $ git init relatorio
+$ cd relatorio
 ```
 
 ![](img/v1-1-git-init.png)
@@ -352,7 +342,7 @@ $ git commit -m 'primeira versão do relatório'
 ### Versão 2
 
 ```
-Editando o README.md e capitulos/capitulo-1.md
+Editando o `README.md` e `capitulos/capitulo-1.md`
 ```
 
 ![](img/v1-4-git-commit-tree.png)
@@ -378,7 +368,7 @@ $ git commit -m 'adicionando o capítulo 1'
 ### Versão 3
 
 ```
-Editando o README.md e capitulos/capitulo-1.md
+Editando o `README.md` e `capitulos/capitulo-1.md`
 ```
 
 ![](img/v2-3-git-commit-tree.png)

@@ -1,5 +1,8 @@
 # Comandos
 
+## Versão 1
+---
+
 ```
 $ git init relatorio
 $ cd relatorio
@@ -46,7 +49,7 @@ $ tree -a
         └── tags
 ```
 
-README.md
+`README.md`:
 ```
 # Relatório
 ```
@@ -104,14 +107,17 @@ Date:   Sun Oct 28 02:12:05 2018 -0300
     adicionando o capítulo 1
 ```
 
-README.md
+## Versão 2
+---
+
+`README.md`:
 ```
 # Relatório
 
 * [Capítulo 1](capitulos/capitulo-1.md)
 ```
 
-capitulos/capitulo-1.md
+`capitulos/capitulo-1.md`:
 ```
 # Capítulo 1
 ```
@@ -179,10 +185,27 @@ Date:   Sun Oct 28 00:37:59 2018 -0300
 ```
 $ git log --oneline
 d12305b (HEAD -> master) adicionando o capítulo 1
-5bf`530e primeira versão do relatório
+5bf530e primeira versão do relatório
 ```
 
-README.md
+## Criando a branch `cap-2`
+---
+
+```
+$ git checkout -b cap-2
+Switched to a new branch 'cap-2'
+```
+
+```
+$ git log --oneline --graph --decorate
+* d12305b (HEAD -> master, cap-2)adicionando o capítulo 1
+* 5bf530e primeira versão do relatório
+```
+
+## Versão 3
+---
+
+`README.md`:
 ```
 # Relatório
 
@@ -190,7 +213,7 @@ README.md
 * [Capítulo 2](capitulos/capitulo-2.md)
 ```
 
-capitulos/capitulo-2.md
+`capitulos/capitulo-2.md`:
 ```
 # Capítulo 2
 ```
@@ -273,6 +296,9 @@ $ git log --oneline --graph --decorate
 * d12305b (master) adicionando o capítulo 1
 * 5bf530e primeira versão do relatório
 ```
+
+## Merge do `cap-2` para o `master`
+---
 
 ```
 $ git checkout master
