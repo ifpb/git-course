@@ -1,9 +1,15 @@
 # Rastreando mudanças
 
-## Diffs
+## Versões
+---
 
 ![](img/versions-diff.png)
 
-## Versões
+![](img/versions-content.png)
 
-![](img/versions-files.png)
+## Conteúdo
+---
+
+![](img/versions-files-diff.png)
+
+![](img/versions-files-content.png)

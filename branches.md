@@ -1,6 +1,7 @@
 # Trabalhando com branchs
 
 ## Versão 1
+---
 
 ```
 $ git init relatorio
@@ -19,6 +20,7 @@ d12305b (HEAD -> master) adicionando o capítulo 1
 ```
 
 ## Versão 2
+---
 
 ```
 $ code README.md
@@ -37,6 +39,7 @@ d12305b (HEAD -> master) adicionando o capítulo 1
 ```
 
 ## Criando a branch `cap-2`
+---
 
 ```
 $ git checkout -b cap-2
@@ -53,6 +56,7 @@ $ git log --oneline --graph --decorate
 ```
 
 ## Versão 3
+---
 
 ```
 $ code README.md
@@ -65,6 +69,7 @@ $ git commit -m 'adicionando o capítulo 2'
 ![](img/v3-3-git-commit-refs.png)
 
 ## Merge do `cap-2` para o `master`
+---
 
 ```
 $ git checkout master
@@ -79,6 +84,7 @@ $ git merge cap-2
 ![](img/m1-git-merge-tree-refs.png)
 
 ## Resumindo
+---
 
 ### Versão 1
 
