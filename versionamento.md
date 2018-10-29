@@ -390,3 +390,14 @@ $ git commit -m 'adicionando o capítulo 2'
 ![](img/v3-3-git-commit-tree.png)
 
 ![](img/v3-3-git-commit.png)
+
+## Comandos
+---
+
+### Comandos Básicos
+
+![](img/git-commands-flow.png)
+
+### Ciclo de Vida
+
+![](img/git-lifecycle.png)
