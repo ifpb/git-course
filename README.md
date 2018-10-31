@@ -18,3 +18,4 @@
 * [git - the simple guide - no deep shit!](http://rogerdudler.github.io/git-guide/)
 * [Visual Git Cheat Sheet](http://ndpsoftware.com/git-cheatsheet.html)
 * [Introduction to Git](https://speakerdeck.com/schacon/introduction-to-git)
+* [Github Education](https://education.github.com/students)
